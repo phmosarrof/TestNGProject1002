@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNGProject1002" duration-ms="31" started-at="2018-09-12T17:06:54Z" finished-at="2018-09-12T17:06:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31" started-at="2018-09-12T17:06:54Z" finished-at="2018-09-12T17:06:54Z">
+      <class name="testNGProject.TestNGProject">
+        <test-method status="PASS" signature="testCase07()[pri:0, instance:testNGProject.TestNGProject@215be6bb]" name="testCase07" duration-ms="0" started-at="2018-09-12T17:06:54Z" finished-at="2018-09-12T17:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase07 -->
+        <test-method status="PASS" signature="testCase08()[pri:0, instance:testNGProject.TestNGProject@215be6bb]" name="testCase08" duration-ms="0" started-at="2018-09-12T17:06:54Z" finished-at="2018-09-12T17:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase08 -->
+        <test-method status="PASS" signature="testCase06()[pri:0, instance:testNGProject.TestNGProject@215be6bb]" name="testCase06" duration-ms="0" started-at="2018-09-12T17:06:54Z" finished-at="2018-09-12T17:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase06 -->
+        <test-method status="PASS" signature="testCase09()[pri:0, instance:testNGProject.TestNGProject@215be6bb]" name="testCase09" duration-ms="0" started-at="2018-09-12T17:06:54Z" finished-at="2018-09-12T17:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase09 -->
+      </class> <!-- testNGProject.TestNGProject -->
+    </test> <!-- Test -->
+  </suite> <!-- TestNGProject1002 -->
+</testng-results>
