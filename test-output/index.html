@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,22 +102,17 @@
                     <div class="method-list-content passed suite-TestNGProject1002">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestNGProject1002" title="testNGProject.TestNGProject" hash-for-method="testCase06">testCase06</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGProject1002" title="testNGProject.TestNGProject01" hash-for-method="testCase10">testCase10</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestNGProject1002" title="testNGProject.TestNGProject" hash-for-method="testCase07">testCase07</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGProject1002" title="testNGProject.TestNGProject01" hash-for-method="testCase11">testCase11</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestNGProject1002" title="testNGProject.TestNGProject" hash-for-method="testCase08">testCase08</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestNGProject1002" title="testNGProject.TestNGProject" hash-for-method="testCase09">testCase09</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNGProject1002" title="testNGProject.TestNGProject01" hash-for-method="testCase12">testCase12</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TestNGProject1002 -->
@@ -135,35 +130,28 @@
           <div class="suite-TestNGProject1002-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testNGProject.TestNGProject</span>
+              <span class="class-name">testNGProject.TestNGProject01</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testCase06">
-                  </a> <!-- testCase06 -->
-                  <span class="method-name">testCase06</span>
+                  <a name="testCase10">
+                  </a> <!-- testCase10 -->
+                  <span class="method-name">testCase10</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testCase07">
-                  </a> <!-- testCase07 -->
-                  <span class="method-name">testCase07</span>
+                  <a name="testCase11">
+                  </a> <!-- testCase11 -->
+                  <span class="method-name">testCase11</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testCase08">
-                  </a> <!-- testCase08 -->
-                  <span class="method-name">testCase08</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testCase09">
-                  </a> <!-- testCase09 -->
-                  <span class="method-name">testCase09</span>
+                  <a name="testCase12">
+                  </a> <!-- testCase12 -->
+                  <span class="method-name">testCase12</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -178,11 +166,20 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestNGProject1002&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test of TestNG project&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testNGProject.TestNGProject&quot;/&gt;
+      &lt;class name=&quot;testNGProject.TestNGProject&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Test.*&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testNGProject.TestNGProject --&gt;
+      &lt;class name=&quot;testNGProject.TestNGProject01&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;testCase13&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testNGProject.TestNGProject01 --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- Test of TestNG project --&gt;
 &lt;/suite&gt; &lt;!-- TestNGProject1002 --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -194,7 +191,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test of TestNG project (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -220,23 +217,19 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testCase07')
-data.setCell(0, 2, 'testNGProject.TestNGProject')
+data.setCell(0, 1, 'testCase12')
+data.setCell(0, 2, 'testNGProject.TestNGProject01')
 data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testCase09')
-data.setCell(1, 2, 'testNGProject.TestNGProject')
+data.setCell(1, 1, 'testCase10')
+data.setCell(1, 2, 'testNGProject.TestNGProject01')
 data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testCase08')
-data.setCell(2, 2, 'testNGProject.TestNGProject')
+data.setCell(2, 1, 'testCase11')
+data.setCell(2, 2, 'testNGProject.TestNGProject01')
 data.setCell(2, 3, 0);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testCase06')
-data.setCell(3, 2, 'testNGProject.TestNGProject')
-data.setCell(3, 3, 0);
 window.suiteTableData['TestNGProject1002']= { tableData: data, tableDiv: 'times-div-TestNGProject1002'}
 return data;
 }
@@ -256,9 +249,29 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-TestNGProject1002" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">5 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testNGProject.TestNGProject</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testCase07</span>
+                <br/>
+                <span class="ignored-method-name">testCase09</span>
+                <br/>
+                <span class="ignored-method-name">testCase06</span>
+                <br/>
+                <span class="ignored-method-name">testCase08</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testNGProject.TestNGProject01</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testCase13</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-TestNGProject1002" class="panel">
@@ -267,21 +280,17 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testNGProject.TestNGProject</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testNGProject.TestNGProject01</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testCase06</span>
+                <span class="method-name">testCase10</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testCase07</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-name">testCase11</span>
+                <span class="method-start">15 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testCase08</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testCase09</span>
+                <span class="method-name">testCase12</span>
                 <span class="method-start">15 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
